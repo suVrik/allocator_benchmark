@@ -2,7 +2,7 @@
 
 For proper benchmark source must be compiled in release mode.
 The fact that one allocator allocates faster than another doesn't necessary mean that it's better for general purpose allocations.
-Each allocator has its own scope.
+Each allocator has its own scope of application.
 
 | Allocator | Size | Count | Alloc time | Dealloc time | Alloc improvment* | Dealloc improvment* |
 |-|-|-|-|-|-|-|
